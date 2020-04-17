@@ -1,0 +1,88 @@
+
+/*header*/
+.top-img{
+	border-radius: 100%;
+	height: 150px;
+	width: 150px;
+}
+.top h5{
+	font-family: 'Slabo 27px', serif;
+	font-weight: bold;
+	font-size: 23px;
+}
+.top h1{
+	font-family: 'Ramabhadra', sans-serif;
+}
+.top h3{
+	font-family: 'Sansita', sans-serif;
+}
+.social-icon{
+	list-style: none;
+	padding: 0;
+}
+.social-icon li{
+	display: inline-block;
+}
+.social-icon li a{
+	color: black;
+	font-size: 20px;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: black;
+	border-width: .8px;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+}
+.social-icon li a:hover{
+	background: #ccc;
+}
+.social-icon li i {
+	height: 100%;
+	display: inline-block;
+	margin-top: 8px;
+}
+
+
+/*portfolio*/
+
+.portfolio {
+	background: #eee;
+}
+
+.portfolio-card {
+	border: none;
+	border-radius: 0;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+}
+
+.card-img-top {
+	border-radius: 0;
+}
+
+.portfolio h5{
+	font-family: 'Slabo 27px', serif;
+	font-weight: bold;
+}
+
+.portfolio p{
+	font-family: 'Sansita', sans-serif;
+}
+
+.detail-modal .modal-body img {
+	width: 100%;
+}
+
+
+@media(min-width: 992px) {
+	.grid-item {
+		width: 25%;
+	}
+}/*
+@media(min-width: 500px) {
+	.grid-item {
+		width: 50%;
+	}
+}*/
